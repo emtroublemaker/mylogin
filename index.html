@@ -73,18 +73,18 @@ function test_input($data){
 <p><h3>REGISTER PLEASE</h3></p>
 <img src="logo.gif" width="300" height="40">
 <form method="post"  action="welcome.php">  
-  Name: <input type="text" name="name">
+    <b><i>Name: <input type="text" name="name"></i></b>
   <span class = "error">* <?php echo $nameerr; ?></span>
   <br><br>
-  E-mail: <input type="text" name="email">
+  <b><i>E-mail: <input type="text" name="email"></i></b>
   <span class = "error">* <?php echo $emailerr; ?></span> <br><br>
-  How can we help you: <textarea name="comment" rows="5" cols="30"></textarea>
+  <b><i>How can we help you: <textarea name="comment" rows="5" cols="30"></textarea></i></b>
   <br><br>
-  Gender:
+  <b><i>Gender:
   <input type="radio" name="gender" value="female">Female
   <input type="radio" name="gender" value="male">Male
   <input type="radio" name="gender" value="other">Other
-  <br><br>
+  <br><br></i></b>
   <input type="submit" name="submit" value="Submit">  
 
 </form>
